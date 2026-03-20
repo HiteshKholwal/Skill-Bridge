@@ -2,7 +2,7 @@
 
 ## Candidate Name: [Hitesh Kholwal]
 ## Scenario Chosen: Scenario 2 — Skill-Bridge Career Navigator
-## Estimated Time Spent: [X] hours
+## Estimated Time Spent: 4.5 hours
 
 ---
 
