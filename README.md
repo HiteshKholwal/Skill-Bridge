@@ -43,7 +43,7 @@ pytest tests/ -v
 ## AI Disclosure
 - **Did you use an AI assistant?** Yes — Claude (Anthropic)
 - **How did you verify suggestions?** Ran all code manually, tested each endpoint via Swagger UI at `/docs`, verified edge cases through pytest, and checked fallback behavior by simulating API failures.
-- **One example of a suggestion I rejected or changed:** Claude initially suggested using `google.generativeai` package — I switched to the newer `google.genai` package after identifying it was deprecated.
+- **One example of a suggestion I rejected or changed:**  The AI initially initialized the Gemini client at module level — client = genai.Client(api_key=...) at the top of ai_service.py. This caused all tests to fail with a ValueError: No API key provided because the client was being instantiated at import time, before the .env file was loaded by the test runner. I identified the root cause and refactored it to lazy initialization — moving the client creation inside a get_client() function that only runs when an actual API call is made. This made the test suite independent of environment variables at import time, which is the correct pattern for testable service code.
 
 ---
 
