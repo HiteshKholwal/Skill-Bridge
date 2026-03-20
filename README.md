@@ -71,4 +71,4 @@ pytest tests/ -v
 ---
 
 ## Video
-[Link to be added]
+[https://youtu.be/9dUBvcDcoFo]
