@@ -1,0 +1,28 @@
+{
+  "roles": [
+    {
+      "title": "Backend Engineer",
+      "required_skills": ["Python", "SQL", "REST APIs", "Docker", "Git", "AWS", "PostgreSQL", "Redis"]
+    },
+    {
+      "title": "Frontend Engineer",
+      "required_skills": ["React", "JavaScript", "TypeScript", "CSS", "Git", "REST APIs", "Testing", "Webpack"]
+    },
+    {
+      "title": "Data Engineer",
+      "required_skills": ["Python", "SQL", "Spark", "Airflow", "AWS", "ETL", "Kafka", "Docker"]
+    },
+    {
+      "title": "ML Engineer",
+      "required_skills": ["Python", "Machine Learning", "TensorFlow", "Docker", "SQL", "MLflow", "AWS", "Statistics"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "required_skills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Terraform", "Linux", "Git", "Monitoring"]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "required_skills": ["React", "Python", "SQL", "REST APIs", "Docker", "Git", "JavaScript", "AWS"]
+    }
+  ]
+}

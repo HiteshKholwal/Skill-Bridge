@@ -1,0 +1,19 @@
+{
+  "samples": [
+    {
+      "name": "Alice",
+      "target_role": "Backend Engineer",
+      "resume_text": "Experienced developer with 2 years of Python and REST APIs. Familiar with Git and PostgreSQL. Built microservices using Flask."
+    },
+    {
+      "name": "Bob",
+      "target_role": "ML Engineer",
+      "resume_text": "Fresh graduate with knowledge of Python and Statistics. Completed Andrew Ng ML course. No production experience."
+    },
+    {
+      "name": "Carol",
+      "target_role": "DevOps Engineer",
+      "resume_text": "2 years experience with Docker, Linux, and Git. Set up CI/CD pipelines using GitHub Actions. No Kubernetes or Terraform experience."
+    }
+  ]
+}
