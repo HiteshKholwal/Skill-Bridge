@@ -1,6 +1,6 @@
 # SkillBridge — Skill Gap Career Navigator
 
-## Candidate Name: [Your Name]
+## Candidate Name: [Hitesh Kholwal]
 ## Scenario Chosen: Scenario 2 — Skill-Bridge Career Navigator
 ## Estimated Time Spent: [X] hours
 
